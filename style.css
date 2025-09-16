@@ -1,3 +1,20 @@
+/* Align email input placeholder text to the right in RTL mode */
+[dir="rtl"] #newsletter-email::placeholder {
+	text-align: right;
+}
+/* Custom style for Learn More buttons */
+.btn-learn-more {
+			border: 2px solid var(--intel-dark) !important;
+		color: var(--intel-dark);
+		background-color: #fff;
+		transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.btn-learn-more:hover, .btn-learn-more:focus {
+		background-color: var(--intel-light);
+		color: var(--intel-blue);
+		border-color: var(--intel-blue);
+		text-decoration: underline;
+}
 
 /* --- Timeline Scrollbar & Snap --- */
 .timeline {
