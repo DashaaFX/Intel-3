@@ -1,3 +1,14 @@
+/* Right-align left-aligned items when dir is rtl */
+[dir="rtl"] .text-md-start,
+[dir="rtl"] .text-start,
+[dir="rtl"] .card-content,
+[dir="rtl"] .hero-content,
+[dir="rtl"] .footer,
+[dir="rtl"] .timeline-card h2,
+[dir="rtl"] .timeline-card h3,
+[dir="rtl"] .timeline-card p {
+	text-align: right !important;
+}
 /* Align email input placeholder text to the right in RTL mode */
 [dir="rtl"] #newsletter-email::placeholder {
 	text-align: right;
