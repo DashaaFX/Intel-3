@@ -1,3 +1,14 @@
+/* Three-column section alignment for LTR/RTL */
+.three-col-content {
+	text-align: left;
+}
+[dir="rtl"] .three-col-content {
+	text-align: right;
+}
+[dir="rtl"] .three-col-content .btn-learn-more,
+[dir="rtl"] .three-col-content p {
+	text-align: right;
+}
 /* Right-align left-aligned items when dir is rtl */
 [dir="rtl"] .text-md-start,
 [dir="rtl"] .text-start,
